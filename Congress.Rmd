@@ -1,0 +1,17 @@
+---
+title: "Practice"
+author: "Sam Saba"
+date: "2/4/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(gov.1005.data)
+```
+
+```{r}
+congress %>% arrange(desc(age))
+```
+
